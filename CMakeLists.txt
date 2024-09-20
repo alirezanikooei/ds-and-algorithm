@@ -4,4 +4,6 @@ project(DS_algorithm)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(DS_algorithm main.cpp
+        slides/karatsuba/karatsuba.cpp
+        slides/karatsuba/karatsuba.h
 )
